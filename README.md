@@ -8,7 +8,30 @@ replace require call
 ## 3. set_prefix(f,t)
 set alias prefix dir name
 ## how to use it
-at project's main entry app.js add below lines:
+like this project dir struct:
+├── app.js
+├── bank.txt
+├── base.js
+├── bin
+├── common
+├── config
+├── db_models
+├── keys
+├── logs
+├── module
+├── mon.sh
+├── node_modules
+├── package-lock.json
+├── package.json
+├── routes
+├── schedule
+├── src
+├── todo.md
+├── tools
+├── upload
+├── views
+
+At project's main entry app.js add below lines:
   require('my-require').set_root_dir("/home/workspace")
 or
   require('my-require').set_root_dir(__dirname);
