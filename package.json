@@ -1,0 +1,16 @@
+{
+  "name": "my-require",
+  "version": "1.0.5",
+  "description": "like webpack alias '@' to require(file)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "node",
+    "include",
+    "require"
+  ],
+  "author": "ppvision",
+  "license": "ISC"
+}
